@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Join our newsletter to keep up with our latest collections, exclusive deals, and special offers.">
+    <meta name="keywords" content="Newsletter, devChallenges.io, Collections, Deals, Offers">
+    <meta name="author" content="devchallenges.io">
+    <meta property="og:title" content="Join Our Newsletter | devChallenges.io">
+    <meta property="og:description" content="Join our newsletter to keep up with our latest collections, exclusive deals, and special offers.">
+    <meta property="og:image" content="resources/thumbnail.jpg">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96"/>
+
+    <title>Join Our Newsletter | devChallenges.io</title>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+      *{
+        box-sizing: border-box;
+      }
+
+      input,h1,button,p{
+        margin: 0;
+      }
+
+      body{
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #F9FAFB;
+      }
+
+      main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 3rem;
+        min-width: 37rem;
+        color: #6C727F;
+      }
+
+      header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 1rem;
+        align-items: center;
+        text-align: center;
+      }
+
+      header h1{
+        font-size: 3rem;
+        font-weight: 600;
+        color: black;
+      }
+
+      header p{
+        font-size: 1.25rem;
+        font-weight: 400;
+      }
+
+      form{
+        background: #ffffff;
+        /* width: 100%; */
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 1.5rem;
+        border-radius: 15px;
+        box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+      }
+
+      form input{
+        width: 100%;
+        padding: 1rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #394150;
+        /* color: #6C727F; */
+        border: 1px solid #E5E7EB;
+        border-radius: 10px;
+        background-color: #F9FAFB;
+        /* margin-bottom: 1rem; */
+      }
+
+      form input::placeholder{
+        font-family: 'Poppins', sans-serif;
+        color: #394150;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+
+      form button{
+        width: 100%;
+        padding: 1rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #ffffff;
+        background-color: #284BCE;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      form p{
+        font-size: 0.875rem;
+        font-weight: 400;
+      }
+
+      @media screen and (min-width: 800px){
+        main{
+          max-width: 45rem;
+        }
+
+        form{
+          max-width: 40rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="resources/logo.svg" alt="newsletter logo">
+        <h1>Join our newsletter</h1>
+        <p>Keep up with our latest collections, exclusive deals, and special offers! We introduce a new collection every week, so stay tuned to snag the hottest items just for you.</p>
+      </header>
+
+      <form>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+        <button type="button">Subscribe now</button>
+        <p>Your email is 100% confidential and won’t send you any spam.</p>
+      </form>
+    </main>
+  </body>
+</html>
